@@ -2,7 +2,8 @@
 if (!localStorage.getItem('users')) {
     localStorage.setItem('users', JSON.stringify({
         admin: { password: "admin123", expires: null },   // Admin tanpa tanggal kadaluarsa
-        anonymous: { password: "anonymous", expires: null }  // User default tanpa tanggal kadaluarsa
+        anonymous: { password: "anonymous", expires: null },
+        admin: { password: "admin125", expires: null }
     }));
 }
 
